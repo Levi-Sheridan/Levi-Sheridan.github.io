@@ -2,12 +2,12 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
+title: Levi Sheridan # the website title (if blank, full name will be used instead)
 first_name: Levi
 middle_name: 
 last_name: Sheridan
 contact_note: 
-description: Mechanical engineer and hardware developer
+description: Levi Sheridan - Mechanical engineer and hardware developer specializing in robotics and manufacturing
 footer_text:
 keywords: mechanical engineering, robotics, hardware development, PCB design, manufacturing, Cooper Union # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
