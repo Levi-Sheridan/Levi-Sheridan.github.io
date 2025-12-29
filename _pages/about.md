@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle:
 
 profile:
   align: right
@@ -23,9 +23,12 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
+I'm a mechanical engineer who recently graduated from Cooper Union, specializing in hardware development and manufacturing optimization. My work spans mechanical and electrical engineering, from CAD and prototyping to PCB design and system integration.
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Most recently, I co-founded and served as hardware lead at Lever Labs, an educational robotics startup. I led complete hardware development of Pip, an educational robot for K-8 classrooms, optimizing for cost and manufacturability through multiple design iterations. I coordinated production with contract manufacturers in China and successfully piloted the robot with 25+ students.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Previously, I interned at SpaceX's foundry where I developed automation systems that generated over $500K in annual cost savings. I've also designed competition-winning autonomous combat robots. Beyond professional work, I document technical projects on YouTube, covering robotics, 3D printing, and investment casting.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I'm a builder at heart, driven by curiosity, a love for challenging problems, and a deep need to create things that help people and make the world better. I want to build hardware that people love using: products that are beautiful, solve real problems, and genuinely make their lives better. 
+
+I'm currently seeking hardware engineering opportunities where I can apply my multidisciplinary expertise. Feel free to reach out via email or LinkedIn.
