@@ -290,7 +290,7 @@ Duolingo-style gamified curriculum where students learn through real-time intera
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/pip/web-quest.jpg" title="Quest interface" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/pip/Quest.jpg" title="Quest interface" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -301,7 +301,7 @@ Unrestricted coding playground for creating and uploading custom programs to Pip
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/pip/web-sandbox.jpg" title="Sandbox coding interface" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/pip/Sandbox.jpg" title="Sandbox coding interface" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -312,7 +312,7 @@ Free play mode to drive Pip around, customize colors, sounds, and display
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/pip/web-garage.jpg" title="Garage interface" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/pip/Garage.jpg" title="Garage interface" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
