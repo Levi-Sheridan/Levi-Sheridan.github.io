@@ -325,21 +325,21 @@ Free play mode to drive Pip around, customize colors, sounds, and display
         {% include figure.liquid path="assets/img/pip/Pilot_2.JPG" title="Student programming Pip" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/pip/Pilot_3.jpg" title="Classroom activity" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/pip/Pilot_3.JPG" title="Classroom activity" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
-<div class="row">
+<div class="row mt-4">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/pip/Pilot_1.jpg" title="Student using Pip" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/pip/Pilot_1.JPG" title="Student using Pip" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
-<div class="row">
+<div class="row mt-4">
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/pip/Pilot_4.jpg" title="Group activity" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/pip/Pilot_4.JPG" title="Line following activity" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/pip/Pilot_5.jpg" title="Maze challenge" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/pip/Pilot_5.JPG" title="Maze challenge" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
