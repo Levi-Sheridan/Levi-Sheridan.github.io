@@ -84,16 +84,20 @@ Central processing and power management hub containing:
 
 ## Front Sensor Board
 
-**Obstacle detection and navigation**
-
-- VL53L1CX multizone ToF distance sensor (forward-looking)
-- Dual VCNL36828P side-looking 1D ToF sensors
-- Dual RGB LEDs (headlights)
-- 2-layer flex design: conforms to curved mounting surface for proper sensor angle through enclosure, integral flex cable to main board backplane connector
-
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/pip/front-sensor-installed.jpg" title="Front sensor installed" class="img-fluid rounded z-depth-1" %}
+    <div class="col-md-6 mt-3">
+        <p><strong>Obstacle detection and navigation</strong></p>
+        <ul>
+            <li>VL53L1CX multizone ToF distance sensor (forward-looking)</li>
+            <li>Dual VCNL36828P side-looking 1D ToF sensors</li>
+            <li>Dual RGB LEDs (headlights)</li>
+            <li>2-layer flex design: conforms to curved mounting surface for proper sensor angle through enclosure, integral flex cable to main board backplane connector</li>
+        </ul>
+    </div>
+    <div class="col-md-6 mt-3">
+        {% include figure.liquid path="assets/img/pip/front-sensor-bracket.jpg" title="Front board mounting bracket" class="img-fluid rounded z-depth-1 mb-3" %}
+        {% include figure.liquid path="assets/img/pip/front-sensor-board.jpg" title="Front sensor board" class="img-fluid rounded z-depth-1 mb-3" %}
+        {% include figure.liquid path="assets/img/pip/front-sensor-layout.jpg" title="Front sensor PCB layout" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
