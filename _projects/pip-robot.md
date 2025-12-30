@@ -49,8 +49,11 @@ Piloted in K-8 classrooms | 25+ students, ~200 user hours | Production-ready des
 ## Multi-Board Architecture
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/pip/boards-exploded.jpeg" title="5-board system" class="img-fluid rounded z-depth-1" %}
+    <div class="col-md-6 mt-3">
+        <p>Pip's hardware is built on a 5-board system: one 4-layer rigid main board serving as the central hub, with three 2-layer flex peripheral boards handling sensors and motor encoders. This modular approach enabled independent design iteration, simplified assembly, and optimized board real estate for component placement.</p>
+    </div>
+    <div class="col-md-6 mt-3">
+        {% include figure.liquid path="assets/img/pip/boards-exploded.jpg" title="5-board system" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
