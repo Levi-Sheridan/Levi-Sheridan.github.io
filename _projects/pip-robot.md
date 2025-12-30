@@ -5,6 +5,8 @@ description: Complete hardware development of an affordable educational robot fo
 img: assets/img/pip/pip_thumbnail.jpg
 importance: 1
 category: work
+toc:
+  sidebar: left
 ---
 
 <div class="row">
