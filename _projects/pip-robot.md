@@ -149,13 +149,13 @@ Central processing and power management hub containing:
 ### Proof of Concept
 
 <div class="row">
-    <div class="col-md-6 mt-3">
+    <div class="col-md-7 mt-3">
         <ul>
             <li>Core system validation: ESP32-S3 wireless control, motor driver (DRV8411), LiPo charging (BQ25185), voltage regulation (TLV62085)</li>
             <li>USB-C interface</li>
         </ul>
     </div>
-    <div class="col-md-6 mt-3">
+    <div class="col-md-5 mt-3">
         {% include figure.liquid path="assets/img/pip/Proof.jpg" title="Proof of concept" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
@@ -165,7 +165,7 @@ Central processing and power management hub containing:
 ### Rev 1
 
 <div class="row">
-    <div class="col-md-6 mt-3">
+    <div class="col-md-7 mt-3">
         <ul>
             <li>Production form factor and shape established</li>
             <li>User buttons, RGB LEDs</li>
@@ -175,7 +175,7 @@ Central processing and power management hub containing:
             <li>Solder pad connections for peripheral boards (motors, front board, bottom board)</li>
         </ul>
     </div>
-    <div class="col-md-6 mt-3">
+    <div class="col-md-5 mt-3">
         {% include figure.liquid path="assets/img/pip/REV1.jpg" title="Rev 1" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
@@ -185,7 +185,7 @@ Central processing and power management hub containing:
 ### Rev 2
 
 <div class="row">
-    <div class="col-md-6 mt-3">
+    <div class="col-md-7 mt-3">
         <ul>
             <li>Upgraded power electronics: BQ24075 charger + BQ27441 battery monitor IC</li>
             <li>Increased motor voltage: Added TPS61088 boost converter for motor power (6V instead of 3.3V for higher speed and torque)</li>
@@ -194,7 +194,7 @@ Central processing and power management hub containing:
             <li>Added OLED display support (solder pads and supporting electronics)</li>
         </ul>
     </div>
-    <div class="col-md-6 mt-3">
+    <div class="col-md-5 mt-3">
         {% include figure.liquid path="assets/img/pip/REV2.jpg" title="Rev 2" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
@@ -204,14 +204,14 @@ Central processing and power management hub containing:
 ### Rev 3
 
 <div class="row">
-    <div class="col-md-6 mt-3">
+    <div class="col-md-7 mt-3">
         <ul>
             <li><strong>I2C redesign:</strong> Split to dual I2C channels, added TCA9617B I2C buffer, improved routing to eliminate long branches and stubs (resolved bandwidth/stability issues)</li>
             <li><strong>Motor power stability:</strong> Added current limiting resistor to motor driver (resolved ESP32 brownout during rapid direction changes)</li>
             <li><strong>Power management:</strong> Added TPS22810 load switch to cut idle power while maintaining ESP32 low-power mode (off-state battery life: days → months)</li>
         </ul>
     </div>
-    <div class="col-md-6 mt-3">
+    <div class="col-md-5 mt-3">
         {% include figure.liquid path="assets/img/pip/REV3.jpg" title="Rev 3" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
@@ -221,14 +221,14 @@ Central processing and power management hub containing:
 ### Rev 4
 
 <div class="row">
-    <div class="col-md-6 mt-3">
+    <div class="col-md-7 mt-3">
         <ul>
             <li><strong>Motor encoder integration:</strong> Redesigned motor solder pads for custom flex PCB encoder boards (smaller footprint, eliminated large hand-solder pads)</li>
             <li><strong>I2C optimization:</strong> Moved IMU to secondary I2C line with battery monitor (further stability improvements)</li>
             <li>General routing improvements</li>
         </ul>
     </div>
-    <div class="col-md-6 mt-3">
+    <div class="col-md-5 mt-3">
         {% include figure.liquid path="assets/img/pip/REV4.jpg" title="Rev 4" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
