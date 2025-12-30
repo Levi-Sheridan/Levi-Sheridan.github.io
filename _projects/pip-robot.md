@@ -153,7 +153,7 @@ Central processing and power management hub containing:
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/pip/poc.jpg" title="Proof of concept" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/pip/Proof.jpg" title="Proof of concept" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -170,7 +170,7 @@ Central processing and power management hub containing:
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/pip/rev1.jpg" title="Rev 1" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/pip/REV1.jpg" title="Rev 1" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -186,7 +186,7 @@ Central processing and power management hub containing:
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/pip/rev2.jpg" title="Rev 2" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/pip/REV2.jpg" title="Rev 2" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -200,7 +200,7 @@ Central processing and power management hub containing:
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/pip/rev3.jpg" title="Rev 3" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/pip/REV3.jpg" title="Rev 3" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -214,7 +214,7 @@ Central processing and power management hub containing:
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/pip/rev4.jpg" title="Rev 4" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/pip/REV4.jpg" title="Rev 4" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -229,7 +229,7 @@ Central processing and power management hub containing:
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/pip/rev5.jpg" title="Rev 5 final production" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/pip/REV5.jpg" title="Rev 5 final production" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
