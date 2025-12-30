@@ -329,13 +329,13 @@ Free play mode to drive Pip around, customize colors, sounds, and display
     </div>
 </div>
 
-<div class="row mt-3">
+<div class="row mt-2">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/pip/Pilot_1.jpg" title="Student using Pip" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
-<div class="row mt-3">
+<div class="row mt-2">
     <div class="col-sm-6 mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/pip/Pilot_4.jpg" title="Line following activity" class="img-fluid rounded z-depth-1" %}
     </div>
