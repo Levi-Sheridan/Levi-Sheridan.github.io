@@ -50,7 +50,7 @@ Piloted in K-8 classrooms | 25+ students, ~200 user hours | Production-ready des
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/pip/boards-exploded.jpg" title="5-board system" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/pip/boards-exploded.jpeg" title="5-board system" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
