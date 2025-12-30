@@ -57,8 +57,6 @@ Piloted in K-8 classrooms | 25+ students, ~200 user hours | Production-ready des
     </div>
 </div>
 
-Pip's hardware is built on a 5-board system: one 4-layer rigid main board serving as the central hub, with three 2-layer flex peripheral boards handling sensors and motor encoders. This modular approach enabled independent design iteration, simplified assembly, and optimized board real estate for component placement.
-
 ---
 
 ## Main Board (4-Layer Rigid PCB)
