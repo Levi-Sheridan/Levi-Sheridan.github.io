@@ -21,7 +21,7 @@ h2 {
     </div>
 </div>
 
-Pip is an educational robot designed to make robotics and programming accessible to K-8 classrooms. Conceived as a superior alternative to existing educational robotics tools, Pip combines sensors, motors, and wireless connectivity in a kid-friendly platform. Students learn through a gamified, Duolingo-style web interface where hardware and software work together to teach coding fundamentals through hands-on interaction.
+Pip is an educational robot designed to make robotics and programming accessible to K-8 rooms. Conceived as a superior alternative to existing educational robotics tools, Pip combines sensors, motors, and wireless connectivity in a kid-friendly platform. Students learn through a gamified, Duolingo-style web interface where hardware and software work together to teach coding fundamentals through hands-on interaction.
 
 ## System Overview
 
@@ -341,26 +341,28 @@ Free play mode to drive Pip around, customize colors, sounds, and display
 
 ## Classroom Deployment
 
-<div class="row justify-content-center">
-    <div class="col-sm-5 mt-3 mt-md-0">
+## Classroom Deployment
+
+<div class="row">
+    <div class="col-sm-6 mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/pip/Pilot_2.JPG" title="Student programming Pip" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-5 mt-3 mt-md-0">
+    <div class="col-sm-6 mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/pip/Pilot_3.jpg" title="Classroom activity" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
-<div class="row mt-2">
+<div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/pip/Pilot_1.jpg" title="Student using Pip" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
-<div class="row justify-content-center mt-2">
-    <div class="col-sm-5 mt-3 mt-md-0">
+<div class="row mt-3">
+    <div class="col-sm-6 mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/pip/Pilot_4.jpg" title="Line following activity" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-5 mt-3 mt-md-0">
+    <div class="col-sm-6 mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/pip/Pilot_5.jpg" title="Maze challenge" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
