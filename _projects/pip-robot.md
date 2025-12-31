@@ -258,7 +258,7 @@ Central processing and power management hub containing:
 
 ## Peripheral Board Evolution
 
-### Front Sensor Board (Rev 1 → Rev 3)
+### Front Sensor Board
 
 <div class="row">
     <div class="col-md-7 mt-3">
@@ -275,23 +275,24 @@ Central processing and power management hub containing:
 
 ---
 
-### Bottom Sensor Board (Rev 1 → Rev 3)
-
-**Rev 1:** 4-layer rigid PCB with custom flex cable, 5x VCNT2020 IR sensor array (TMUX1208 analog multiplexer, CSD17484F4 power control), VEML3328 color sensor with 3014 LED (CSD17484F4 power control), small MOSFET package caused assembly failures
-
-**Rev 2:** CSD17484F4 to NTK3134NT1G (larger footprint resolved assembly issues), improved flex cable outline for better routing
-
-**Rev 3 (Final):** Eliminated IR sensor array (color sensor sufficient for line-following, cost reduction), 4-layer rigid to 2-layer flex PCB with integral flex ribbon and Hirose connector (eliminated soldering, reduced size)
+### Bottom Sensor Board
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
+    <div class="col-md-7 mt-3">
+        <p><strong>Rev 1:</strong> 4-layer rigid PCB with custom flex cable, 5x VCNT2020 IR sensor array (TMUX1208 analog multiplexer, CSD17484F4 power control), VEML3328 color sensor with 3014 LED (CSD17484F4 power control), small MOSFET package caused assembly failures</p>
+        
+        <p><strong>Rev 2:</strong> CSD17484F4 to NTK3134NT1G (larger footprint resolved assembly issues), improved flex cable outline for better routing</p>
+        
+        <p><strong>Rev 3 (Final):</strong> Eliminated IR sensor array (color sensor sufficient for line-following, cost reduction), 4-layer rigid to 2-layer flex PCB with integral flex ribbon and Hirose connector (eliminated soldering, reduced size)</p>
+    </div>
+    <div class="col-md-5 mt-3">
         {% include figure.liquid path="assets/img/pip/Bottom_Board_Revs.jpg" title="Bottom sensor evolution" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
 ---
 
-### Encoder Boards (Rev 1 → Rev 2)
+### Encoder Boards
 
 <div class="row">
     <div class="col-md-7 mt-3">
