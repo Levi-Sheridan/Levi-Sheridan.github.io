@@ -101,9 +101,9 @@ Central processing and power management hub containing:
         </ul>
     </div>
     <div class="col-md-6 mt-3">
-        {% include figure.liquid path="assets/img/pip/front-sensor-bracket.jpg" title="Front board mounting bracket" class="img-fluid rounded z-depth-1 mb-3" %}
-        {% include figure.liquid path="assets/img/pip/front-sensor-board.jpg" title="Front sensor board" class="img-fluid rounded z-depth-1 mb-3" %}
-        {% include figure.liquid path="assets/img/pip/front-sensor-layout.jpg" title="Front sensor PCB layout" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/pip/Front_Board_Mount.jpg" title="Front board mounting bracket" class="img-fluid rounded z-depth-1 mb-3" %}
+        {% include figure.liquid path="assets/img/pip/Front_Board.jpg" title="Front sensor board" class="img-fluid rounded z-depth-1 mb-3" %}
+        {% include figure.liquid path="assets/img/pip/Front_Board_Layout.jpg" title="Front sensor PCB layout" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
