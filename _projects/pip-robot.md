@@ -379,3 +379,9 @@ Free play mode to drive Pip around, customize colors, sounds, and display
         {% include figure.liquid path="assets/img/pip/Pilot_5.jpg" title="Maze challenge" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  mediumZoom('img:not(.emoji)');
+});
+</script>
