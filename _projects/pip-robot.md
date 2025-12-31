@@ -21,7 +21,7 @@ h2 {
     </div>
 </div>
 
-Pip is an educational robot designed to make robotics and programming accessible to K-8 rooms. Conceived as a superior alternative to existing educational robotics tools, Pip combines sensors, motors, and wireless connectivity in a kid-friendly platform. Students learn through a gamified, Duolingo-style web interface where hardware and software work together to teach coding fundamentals through hands-on interaction.
+Pip is an educational robot designed to make robotics and programming accessible to K-8 classrooms. Conceived as a superior alternative to existing educational robotics tools, Pip combines sensors, motors, and wireless connectivity in a kid-friendly platform. Students learn through a gamified, Duolingo-style web interface where hardware and software work together to teach coding fundamentals through hands-on interaction.
 
 ## System Overview
 
@@ -260,14 +260,15 @@ Central processing and power management hub containing:
 
 ### Front Sensor Board (Rev 1 → Rev 3)
 
-**Rev 1:** VL53L7CX multizone ToF, dual RGB LEDs, VCNL36828P side ToFs with voltage regulators, constrained outline limited routing, no alignment features caused installation issues
-
-**Rev 2:** Expanded outline for improved routing, added alignment features, switched to VL53L5CX (cost reduction)
-
-**Rev 3 (Final):** VL53L5CX → VL53L1CX (cost reduction), added Hirose backplane connector (DFM), improved routing
-
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
+    <div class="col-md-6 mt-3">
+        <p><strong>Rev 1:</strong> VL53L7CX multizone ToF, dual RGB LEDs, VCNL36828P side ToFs with voltage regulators, constrained outline limited routing, no alignment features caused installation issues</p>
+        
+        <p><strong>Rev 2:</strong> Expanded outline for improved routing, added alignment features, switched to VL53L5CX (cost reduction)</p>
+        
+        <p><strong>Rev 3 (Final):</strong> VL53L5CX → VL53L1CX (cost reduction), added Hirose backplane connector (DFM), improved routing</p>
+    </div>
+    <div class="col-md-6 mt-3">
         {% include figure.liquid path="assets/img/pip/Front_Board_Revs.jpg" title="Front sensor evolution" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
@@ -292,27 +293,14 @@ Central processing and power management hub containing:
 
 ### Encoder Boards (Rev 1 → Rev 2)
 
-**Rev 1:** 2-layer flex PCB with integral flex cable, dual TLE4946-2K hall effect sensors, soldered to motor pins and main board solder pads, mirrored left/right layouts
-
-**Rev 2 (Final):** Improved routing, added Hirose backplane connector (eliminated main board soldering)
-
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/pip/Encoder_Board_Revs.jpg" title="Encoder evolution" class="img-fluid rounded z-depth-1" %}
+    <div class="col-md-6 mt-3">
+        <p><strong>Rev 1:</strong> 2-layer flex PCB with integral flex cable, dual TLE4946-2K hall effect sensors, soldered to motor pins and main board solder pads, mirrored left/right layouts</p>
+        
+        <p><strong>Rev 2 (Final):</strong> Improved routing, added Hirose backplane connector (eliminated main board soldering)</p>
     </div>
-</div>
-
----
-
-### Encoder Boards (Rev 1 → Rev 2)
-
-**Rev 1:** 2-layer flex PCB with integral flex cable, dual TLE4946-2K hall effect sensors, soldered to motor pins and main board solder pads, mirrored left/right layouts
-
-**Rev 2 (Final):** Improved routing, added Hirose backplane connector (eliminated main board soldering)
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/pip/encoder-evolution.jpg" title="Encoder evolution" class="img-fluid rounded z-depth-1" %}
+    <div class="col-md-6 mt-3">
+        {% include figure.liquid path="assets/img/pip/Encoder_Board_Revs.jpg" title="Encoder evolution" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
