@@ -402,7 +402,12 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-pip-educational-robot",
+          section: "News",},{id: "projects-autonomous-combat-robot",
+          title: 'Autonomous Combat Robot',
+          description: "First-place autonomous combat robot with custom spring-retention launcher",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/autonomous-combat-robot/";
+            },},{id: "projects-pip-educational-robot",
           title: 'Pip Educational Robot',
           description: "Complete hardware development of an affordable educational robot for K-8 classrooms",
           section: "Projects",handler: () => {
