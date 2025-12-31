@@ -111,19 +111,25 @@ Central processing and power management hub containing:
 
 ## Bottom Sensor Board
 
-**Line-following and surface detection**
-
-- VEML3328 color sensor
-- 3014 LED (illumination)
-- 2-layer flex with double-sided assembly, integral cable and backplane connector
-- Heat-staked directly to enclosure
-
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/pip/bottom-sensor-layers.jpg" title="Bottom sensor PCB" class="img-fluid rounded z-depth-1" %}
+    <div class="col-md-6 mt-3">
+        <p><strong>Line-following and surface detection</strong></p>
+        <ul>
+            <li>VEML3328 color sensor</li>
+            <li>3014 LED (illumination)</li>
+            <li>2-layer flex with double-sided assembly, integral cable and backplane connector</li>
+            <li>Heat-staked directly to enclosure</li>
+        </ul>
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/pip/bottom-sensor-assembled.jpg" title="Bottom sensor assembled" class="img-fluid rounded z-depth-1" %}
+    <div class="col-md-6 mt-3">
+        <div class="row">
+            <div class="col-6">
+                {% include figure.liquid path="assets/img/pip/Bottom_Board_Layout.jpg" title="Bottom sensor PCB layout" class="img-fluid rounded z-depth-1" %}
+            </div>
+            <div class="col-6">
+                {% include figure.liquid path="assets/img/pip/Bottom_Board.jpg" title="Bottom sensor board" class="img-fluid rounded z-depth-1" %}
+            </div>
+        </div>
     </div>
 </div>
 
@@ -131,20 +137,26 @@ Central processing and power management hub containing:
 
 ## Encoder Boards
 
-**Motor position feedback**
-
-- TLE4946-2K hall effect sensors
-- Shaft-mounted magnets
-- 2-layer flex with stiffener for durability
-- Soldered directly to motor pins, backplane connector to main board
-- Mirrored left/right layouts
-
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/pip/encoder-layers.jpg" title="Encoder PCB layers" class="img-fluid rounded z-depth-1" %}
+    <div class="col-md-6 mt-3">
+        <p><strong>Motor position feedback</strong></p>
+        <ul>
+            <li>TLE4946-2K hall effect sensors</li>
+            <li>Shaft-mounted magnets</li>
+            <li>2-layer flex with stiffener for durability</li>
+            <li>Soldered directly to motor pins, backplane connector to main board</li>
+            <li>Mirrored left/right layouts</li>
+        </ul>
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/pip/encoder-assembled.jpg" title="Encoder boards" class="img-fluid rounded z-depth-1" %}
+    <div class="col-md-6 mt-3">
+        <div class="row">
+            <div class="col-6">
+                {% include figure.liquid path="assets/img/pip/Encoder_Board_Layout.jpg" title="Encoder PCB layout" class="img-fluid rounded z-depth-1" %}
+            </div>
+            <div class="col-6">
+                {% include figure.liquid path="assets/img/pip/Encoder_Boards.jpg" title="Encoder boards" class="img-fluid rounded z-depth-1" %}
+            </div>
+        </div>
     </div>
 </div>
 
