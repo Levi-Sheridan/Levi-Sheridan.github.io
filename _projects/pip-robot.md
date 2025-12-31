@@ -268,7 +268,7 @@ Central processing and power management hub containing:
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/pip/front-sensor-evolution.jpg" title="Front sensor evolution" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/pip/Front_Board_Revs.jpg" title="Front sensor evolution" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -284,7 +284,21 @@ Central processing and power management hub containing:
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/pip/bottom-sensor-evolution.jpg" title="Bottom sensor evolution" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/pip/Bottom_Board_Revs.jpg" title="Bottom sensor evolution" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+---
+
+### Encoder Boards (Rev 1 → Rev 2)
+
+**Rev 1:** 2-layer flex PCB with integral flex cable, dual TLE4946-2K hall effect sensors, soldered to motor pins and main board solder pads, mirrored left/right layouts
+
+**Rev 2 (Final):** Improved routing, added Hirose backplane connector (eliminated main board soldering)
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/pip/Encoder_Board_Revs.jpg" title="Encoder evolution" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
