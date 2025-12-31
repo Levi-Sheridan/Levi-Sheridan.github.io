@@ -261,14 +261,14 @@ Central processing and power management hub containing:
 ### Front Sensor Board (Rev 1 → Rev 3)
 
 <div class="row">
-    <div class="col-md-6 mt-3">
+    <div class="col-md-7 mt-3">
         <p><strong>Rev 1:</strong> VL53L7CX multizone ToF, dual RGB LEDs, VCNL36828P side ToFs with voltage regulators, constrained outline limited routing, no alignment features caused installation issues</p>
         
         <p><strong>Rev 2:</strong> Expanded outline for improved routing, added alignment features, switched to VL53L5CX (cost reduction)</p>
         
         <p><strong>Rev 3 (Final):</strong> VL53L5CX → VL53L1CX (cost reduction), added Hirose backplane connector (DFM), improved routing</p>
     </div>
-    <div class="col-md-6 mt-3">
+    <div class="col-md-5 mt-3">
         {% include figure.liquid path="assets/img/pip/Front_Board_Revs.jpg" title="Front sensor evolution" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
@@ -294,12 +294,12 @@ Central processing and power management hub containing:
 ### Encoder Boards (Rev 1 → Rev 2)
 
 <div class="row">
-    <div class="col-md-6 mt-3">
+    <div class="col-md-7 mt-3">
         <p><strong>Rev 1:</strong> 2-layer flex PCB with integral flex cable, dual TLE4946-2K hall effect sensors, soldered to motor pins and main board solder pads, mirrored left/right layouts</p>
         
         <p><strong>Rev 2 (Final):</strong> Improved routing, added Hirose backplane connector (eliminated main board soldering)</p>
     </div>
-    <div class="col-md-6 mt-3">
+    <div class="col-md-5 mt-3">
         {% include figure.liquid path="assets/img/pip/Encoder_Board_Revs.jpg" title="Encoder evolution" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
