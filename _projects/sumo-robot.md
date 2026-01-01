@@ -4,7 +4,7 @@ title: Sumo Robot
 description: Coming soon
 img: assets/img/sumo/sumo_thumbnail.jpg
 importance: 3
-category: work
+category: robotics
 ---
 
 <style>
