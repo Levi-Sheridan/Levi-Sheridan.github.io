@@ -4,11 +4,25 @@
     <li class="list-group-item">
       <div class="row">
         <div class="col-xs-2 cl-sm-2 col-md-2 text-center date-column">
-          {% if content.startDate and content.startDate != '' %}
-            {% assign startDate = content.startDate | split: '-' | slice: 0, 2 | join: '.' %}
-            {% assign endDate = content.endDate | split: '-' | slice: 0, 2 | join: '.' | default: 'Present' %}
-            {% assign date = startDate | append: ' - ' %}
-            {% assign date = date | append: endDate %}
+          {% if content.endDate %}
+            {% assign endParts = content.endDate | split: '-' %}
+            {% assign endYear = endParts[0] %}
+            {% assign endMonth = endParts[1] %}
+            {% case endMonth %}
+              {% when '01' %}{% assign endMonthName = 'JAN' %}
+              {% when '02' %}{% assign endMonthName = 'FEB' %}
+              {% when '03' %}{% assign endMonthName = 'MAR' %}
+              {% when '04' %}{% assign endMonthName = 'APR' %}
+              {% when '05' %}{% assign endMonthName = 'MAY' %}
+              {% when '06' %}{% assign endMonthName = 'JUN' %}
+              {% when '07' %}{% assign endMonthName = 'JUL' %}
+              {% when '08' %}{% assign endMonthName = 'AUG' %}
+              {% when '09' %}{% assign endMonthName = 'SEP' %}
+              {% when '10' %}{% assign endMonthName = 'OCT' %}
+              {% when '11' %}{% assign endMonthName = 'NOV' %}
+              {% when '12' %}{% assign endMonthName = 'DEC' %}
+            {% endcase %}
+            {% assign date = endMonthName | append: ' ' | append: endYear %}
           {% else %}
             {% assign date = null %}
           {% endif %}
@@ -41,6 +55,11 @@
           <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">{{ content.institution }}</h6>
           <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem; font-style: italic">{{ content.area }}</h6>
           <ul class="items">
+            {% if content.score %}
+              <li>
+                <span class="item">{{ content.score }}</span>
+              </li>
+            {% endif %}
             {% for item in content.courses %}
               <li>
                 <span class="item">{{ item }}</span>
