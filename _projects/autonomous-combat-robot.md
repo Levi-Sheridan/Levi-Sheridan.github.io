@@ -120,8 +120,11 @@ The cannon occupies the center front, flanked by the camera module (left) and sp
 The cross section shows the launcher in unloaded (left) and loaded (right) states. In the unloaded state, the servos are open and the spring is relaxed. In the loaded state, the plunger compresses the spring and the servos close to retain it.
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/drbones/plunger-latch.jpg" title="Plunger and rotating latch positions" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/drbones/latch-open.jpg" title="Latch open - plunger slides freely" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/drbones/latch-closed.jpg" title="Latch closed - plunger retained" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
