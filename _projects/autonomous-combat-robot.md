@@ -4,7 +4,7 @@ title: Autonomous Combat Robot
 description: First-place autonomous combat robot with custom spring-retention launcher
 img: assets/img/drbones/drbones_thumbnail.jpg
 importance: 2
-category: work
+category: robotics
 toc:
   sidebar: left
 ---
