@@ -24,7 +24,7 @@
       "summary": "",
       "highlights": [
         "Designed complete hardware system for educational robot: 4-layer ESP32 PCB with Li-ion charging, buck/boost converters, sensors (IMU, ToF, color sensor, encoders), user interface (OLED, LEDs, buzzer), three custom flex peripheral boards, and injection-mold-ready clamshell enclosure",
-        "Solved critical hardware issues through 5 board revisions including I2C stability and ESP32 brownout during motor switching; optimized DFM with Hirose board-to-board connectors eliminating manual soldering, reducing cost from $225 to $69 and assembly time from 45 minutes to 4 minutes",
+        "Solved critical hardware issues through 5 board revisions including I2C stability and ESP32 brownout during motor switching; optimized DFM with Hirose board-to-board connectors eliminating manual soldering, reducing per-unit cost from $225 to $69 and assembly time from 45 minutes to 4 minutes",
         "Worked directly with contract manufacturer in China on electronics production; piloted with 30+ students, accumulating hundreds of hours of real-world classroom validation"
       ]
     },
