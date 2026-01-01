@@ -5,10 +5,46 @@
       <div class="row">
         <div class="col-xs-2 cl-sm-2 col-md-2 text-center date-column">
           {% if content.startDate %}
-            {% assign startDate = content.startDate | split: '-' | slice: 0, 2 | join: '.' %}
-            {% assign endDate = content.endDate | split: '-' | slice: 0, 2 | join: '.' | default: 'Present' %}
-            {% assign date = startDate | append: ' - ' %}
-            {% assign date = date | append: endDate %}
+            {% assign startParts = content.startDate | split: '-' %}
+            {% assign startYear = startParts[0] %}
+            {% assign startMonth = startParts[1] %}
+            {% case startMonth %}
+              {% when '01' %}{% assign startMonthName = 'Jan' %}
+              {% when '02' %}{% assign startMonthName = 'Feb' %}
+              {% when '03' %}{% assign startMonthName = 'Mar' %}
+              {% when '04' %}{% assign startMonthName = 'Apr' %}
+              {% when '05' %}{% assign startMonthName = 'May' %}
+              {% when '06' %}{% assign startMonthName = 'Jun' %}
+              {% when '07' %}{% assign startMonthName = 'Jul' %}
+              {% when '08' %}{% assign startMonthName = 'Aug' %}
+              {% when '09' %}{% assign startMonthName = 'Sep' %}
+              {% when '10' %}{% assign startMonthName = 'Oct' %}
+              {% when '11' %}{% assign startMonthName = 'Nov' %}
+              {% when '12' %}{% assign startMonthName = 'Dec' %}
+            {% endcase %}
+            
+            {% if content.endDate %}
+              {% assign endParts = content.endDate | split: '-' %}
+              {% assign endYear = endParts[0] %}
+              {% assign endMonth = endParts[1] %}
+              {% case endMonth %}
+                {% when '01' %}{% assign endMonthName = 'Jan' %}
+                {% when '02' %}{% assign endMonthName = 'Feb' %}
+                {% when '03' %}{% assign endMonthName = 'Mar' %}
+                {% when '04' %}{% assign endMonthName = 'Apr' %}
+                {% when '05' %}{% assign endMonthName = 'May' %}
+                {% when '06' %}{% assign endMonthName = 'Jun' %}
+                {% when '07' %}{% assign endMonthName = 'Jul' %}
+                {% when '08' %}{% assign endMonthName = 'Aug' %}
+                {% when '09' %}{% assign endMonthName = 'Sep' %}
+                {% when '10' %}{% assign endMonthName = 'Oct' %}
+                {% when '11' %}{% assign endMonthName = 'Nov' %}
+                {% when '12' %}{% assign endMonthName = 'Dec' %}
+              {% endcase %}
+              {% assign date = startMonthName | append: ' ' | append: startYear | append: ' - ' | append: endMonthName | append: ' ' | append: endYear %}
+            {% else %}
+              {% assign date = startMonthName | append: ' ' | append: startYear | append: ' - Present' %}
+            {% endif %}
           {% else %}
             {% assign date = '' %}
           {% endif %}
