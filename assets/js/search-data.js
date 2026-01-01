@@ -412,6 +412,11 @@ ninja.data = [{
           description: "Complete hardware development of an affordable educational robot for K-8 classrooms",
           section: "Projects",handler: () => {
               window.location.href = "/projects/pip-robot/";
+            },},{id: "projects-sumo-robot",
+          title: 'Sumo Robot',
+          description: "Coming soon",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/sumo-robot/";
             },},{
         id: 'social-email',
         title: 'email',
