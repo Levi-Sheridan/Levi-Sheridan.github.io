@@ -35,12 +35,11 @@
       "image": "assets/img/logos/spacex.svg",
       "startDate": "2023-05",
       "endDate": "2023-08",
-      "summary": "",
+      "summary": "Starship Raptor Engine",
       "highlights": [
-        "Identified critical inefficiency in waste stream processing and independently developed solution that eliminated redundant channels, generating $500K+ in annual cost savings",
-        "Designed and manufactured production tooling using Siemens NX and lean methodology, improving throughput and technician efficiency across foundry operations",
-        "Operated and maintained Stratasys and 3D Systems industrial SLA printers to aid prototyping and production requirements",
-        "Received full-time return offer upon completion of internship"
+        "Designed, built, and deployed automated resin reclamation system: integrated PLC controls, sensors, pumps, and motorized valves to enable $500K+ annual savings through material recovery; iterated on hardware to solve flow constraints and achieve production-ready performance",
+        "Designed plate exchange station in Siemens NX, fabricated steel frame and integrated electric actuators to deploy to production floor; eliminated manual lifting hazard and transformed two-person operation into single-operator automated process",
+        "Received full-time return offer"
       ]
     }
   ],
