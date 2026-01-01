@@ -20,7 +20,7 @@
       "url": "",
       "image": "assets/img/logos/lever-labs.svg",
       "startDate": "2024-10",
-      "endDate": "2024-11",
+      "endDate": "2025-11",
       "summary": "",
       "highlights": [
         "Designed complete hardware system for educational robot: 4-layer ESP32 PCB with Li-ion charging, buck/boost converters, sensors (IMU, ToF, color sensor, encoders), user interface (OLED, LEDs, buzzer), three custom flex peripheral boards, and injection-mold-ready clamshell enclosure",
