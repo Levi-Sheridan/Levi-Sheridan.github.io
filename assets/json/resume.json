@@ -30,12 +30,12 @@
     },
     {
       "name": "SpaceX",
-      "position": "Mechanical Engineering Intern - Foundry",
+      "position": "Mechanical Engineering Intern - Foundry (Starship Raptor Engine)",
       "url": "https://www.spacex.com",
       "image": "assets/img/logos/spacex.svg",
       "startDate": "2023-05",
       "endDate": "2023-08",
-      "summary": "Starship Raptor Engine",
+      "summary": "",
       "highlights": [
         "Designed, built, and deployed automated resin reclamation system: integrated PLC controls, sensors, pumps, and motorized valves to enable $500K+ annual savings through material recovery; iterated on hardware to solve flow constraints and achieve production-ready performance",
         "Designed plate exchange station in Siemens NX, fabricated steel frame and integrated electric actuators to deploy to production floor; eliminated manual lifting hazard and transformed two-person operation into single-operator automated process",
