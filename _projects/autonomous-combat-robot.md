@@ -21,6 +21,14 @@ h2 {
     </div>
 </div>
 
+**Design Walkthrough Video:**
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        <iframe width="100%" height="480" src="https://www.youtube.com/embed/FWer01zHNTw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+</div>
+
 This autonomous combat robot was designed for Cooper Union's Robot Tank Battle competition. As Hardware Lead working alongside Software Lead Ariel Tamayev, I developed the mechanical systems, selected all components, and integrated the hardware over a 14-week period. The robot won 1st place in the Robot Tank Battle Competition with a 3-0-1 record.
 
 ## Competition Overview
