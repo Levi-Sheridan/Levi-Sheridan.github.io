@@ -2,14 +2,13 @@
   "basics": {
     "name": "Levi Sheridan",
     "label": "Mechanical Engineer",
-    "image": "",
     "email": "levi.i.sheridan@gmail.com",
-    "phone": "",
     "url": "https://levi-sheridan.github.io",
-    "summary": "Mechanical engineer specializing in hardware development, robotics, and manufacturing optimization. 13 years of 3D printing experience with expertise spanning CAD, prototyping, PCB design, and design for production.",
+    "summary": "Mechanical engineer specializing in hardware development, robotics, and manufacturing optimization. 13 years of 3D printing experience with expertise in design for manufacturing and system integration.",
     "location": {
       "city": "New York",
-      "countryCode": "US"
+      "countryCode": "US",
+      "region": "New York"
     },
     "profiles": []
   },
@@ -18,81 +17,73 @@
       "name": "Lever Labs",
       "position": "Co-Founder & Hardware Lead",
       "url": "",
-      "startDate": "2024-10-01",
-      "endDate": "2025-11-30",
+      "startDate": "2024-10",
+      "endDate": "2024-11",
       "summary": "",
       "highlights": [
-        "Designed battery-powered electronics system for educational robot: 4-layer main PCB with ESP32, power management (Li-ion charging, buck/boost converters), sensor integration (IMU, ToF, color sensor, encoders), and three flex peripheral boards",
-        "Solved critical hardware issues through 5 board revisions including I2C stability, ESP32 brownout during motor switching, and DFM optimization. Drove per-unit cost from $200+ to $69 and assembly time from 45 minutes to 4 minutes",
-        "Worked directly with contract manufacturer in China on electronics production. Piloted with 25 students, accumulating hundreds of hours of real-world testing and validation"
+        "Led hardware development of Pip, an educational robot for K-8 classrooms, through 5 board revisions",
+        "Designed 4-layer ESP32 PCB with integrated power management, sensors, and 3 custom 2-layer flex peripheral boards",
+        "Reduced unit cost from $200+ to $69 through component selection and design optimization",
+        "Optimized assembly process from 45 minutes to 4 minutes through connector integration, eliminating all soldering",
+        "Managed overseas manufacturing and executed 25+ student pilot program with 200+ user hours"
       ]
     },
     {
       "name": "SpaceX",
       "position": "Mechanical Engineering Intern - Foundry",
-      "url": "",
-      "startDate": "2023-05-01",
-      "endDate": "2023-08-31",
+      "url": "https://www.spacex.com",
+      "startDate": "2023-05",
+      "endDate": "2023-08",
       "summary": "",
       "highlights": [
-        "Identified critical inefficiency in waste stream processing and independently developed solution that eliminated redundant channels, generating $500K+ in annual cost savings",
-        "Designed and manufactured production tooling using Siemens NX and lean methodology, improving throughput and technician efficiency across foundry operations",
-        "Operated and maintained Stratasys and 3D Systems industrial SLA printers to aid prototyping and production requirements",
-        "Received full-time return offer upon completion of internship"
+        "Developed automation systems that generated over $500K in annual cost savings through waste stream optimization",
+        "Designed production tooling using Siemens NX for foundry operations",
+        "Operated industrial SLA printers for rapid prototyping and tooling",
+        "Received full-time return offer"
       ]
     }
   ],
-  "volunteer": [],
   "education": [
     {
-      "institution": "The Cooper Union: Albert Nerken School of Engineering",
+      "institution": "Cooper Union",
       "location": "New York, NY",
-      "url": "",
+      "url": "https://cooper.edu",
       "area": "Mechanical Engineering",
       "studyType": "Bachelor of Engineering",
-      "startDate": "2020-09-01",
-      "endDate": "2024-05-31",
+      "startDate": "2020-09",
+      "endDate": "2024-05",
       "score": "3.9",
       "courses": []
     }
   ],
-  "awards": [
+  "projects": [
     {
-      "title": "Invention Factory First Place Winner",
-      "date": "2022",
-      "awarder": "The Cooper Union",
-      "url": "",
-      "summary": ""
+      "name": "Autonomous Combat Robot",
+      "startDate": "2023-01",
+      "endDate": "2023-05",
+      "summary": "First-place autonomous combat robot for Cooper Union Robot Tank Battle competition",
+      "highlights": [
+        "First place winner with 3-0-1 record",
+        "Designed complete mechanical system including Mecanum drivetrain and custom spring-retention launcher (8 m/s projectile velocity)",
+        "Integrated 360° LIDAR for obstacle detection and modified infrared camera for autonomous target acquisition",
+        "Optimized firing range parameters mid-competition for improved performance"
+      ]
     },
     {
-      "title": "Norman Perry Mechanical Engineering Award",
-      "date": "2024",
-      "awarder": "The Cooper Union",
-      "url": "",
-      "summary": ""
-    },
-    {
-      "title": "Howard Silfin Mechanical Engineering Award",
-      "date": "2024",
-      "awarder": "The Cooper Union",
-      "url": "",
-      "summary": ""
-    },
-    {
-      "title": "Half Tuition Merit Scholarship",
-      "date": "2020-2024",
-      "awarder": "The Cooper Union",
-      "url": "",
-      "summary": ""
+      "name": "Optidrop Eye Drop Assistor",
+      "startDate": "2022-06",
+      "endDate": "2022-08",
+      "summary": "Eye drop application device designed to improve accuracy and reduce waste",
+      "highlights": [
+        "Developed 30+ prototypes through iterative design and user testing",
+        "Filed USPTO provisional patent (63,397,888)",
+        "Conducted trials with ophthalmologists to validate design and usability"
+      ]
     }
   ],
-  "certificates": [],
-  "publications": [],
   "skills": [
     {
       "name": "CAD & Design",
-      "level": "",
-      "icon": "",
       "keywords": [
         "Fusion 360",
         "SolidWorks",
@@ -102,63 +93,58 @@
     },
     {
       "name": "Electronics & PCB",
-      "level": "",
-      "icon": "",
       "keywords": [
         "KiCAD",
-        "Electronics debugging (oscilloscope, DMM, logic analyzer, spectrum analyzer)",
-        "SMD soldering"
+        "Oscilloscope",
+        "DMM",
+        "Logic Analyzer",
+        "Spectrum Analyzer",
+        "SMD Soldering"
       ]
     },
     {
       "name": "Manufacturing",
-      "level": "",
-      "icon": "",
       "keywords": [
         "3D Printing (13 years)",
-        "Rapid prototyping",
-        "CNC machining",
-        "Investment casting",
-        "TIG/MIG welding"
+        "Rapid Prototyping",
+        "CNC",
+        "Investment Casting",
+        "TIG/MIG Welding"
       ]
     },
     {
       "name": "Tools & Software",
-      "level": "",
-      "icon": "",
       "keywords": [
-        "Hand and power tools",
+        "Hand/Power Tools",
         "Microsoft Office",
-        "Video editing"
+        "Video Editing"
       ]
     }
   ],
-  "languages": [],
-  "interests": [],
-  "references": [],
-  "projects": [
+  "awards": [
     {
-      "name": "Autonomous Combat Robot",
-      "summary": "Designed and built autonomous combat robot that won first place in competition, employing mecanum wheels for enhanced maneuverability and omnidirectional movement",
-      "highlights": [
-        "Developed a compact spring-powered ping pong ball cannon using a servo motor retained stacked wave spring, optimizing for power density and projectile velocity, hitting a target velocity of 8 m/s",
-        "Integrated a suite of sensors (360° LIDAR, infrared camera) for autonomous navigation and precise target tracking"
-      ],
-      "startDate": "2023-01-01",
-      "endDate": "2023-05-31",
-      "url": ""
+      "title": "Invention Factory First Place Winner",
+      "date": "2022",
+      "awarder": "Cooper Union",
+      "summary": ""
     },
     {
-      "name": "Optidrop - Eye Drop Administration Assistor",
-      "summary": "Designed consumer eye drop administration device focused on ergonomics, improving accuracy and ease of self-administration",
-      "highlights": [
-        "Iterated through 30+ prototypes using Fusion 360 and 3D printing, refining form factor and usability based on testing feedback",
-        "Filed provisional patent with USPTO (Application number 63,397,888)",
-        "Conducted patient trials with NYC-based ophthalmologist to validate design and gather real-world usage data"
-      ],
-      "startDate": "2022-06-01",
-      "endDate": "2022-08-31",
-      "url": ""
+      "title": "Norman Perry Mechanical Engineering Award",
+      "date": "2024",
+      "awarder": "Cooper Union",
+      "summary": ""
+    },
+    {
+      "title": "Howard Silfin Mechanical Engineering Award",
+      "date": "2024",
+      "awarder": "Cooper Union",
+      "summary": ""
+    },
+    {
+      "title": "Half Tuition Merit Scholarship",
+      "date": "2020-2024",
+      "awarder": "Cooper Union",
+      "summary": ""
     }
   ]
 }
