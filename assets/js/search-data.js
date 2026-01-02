@@ -407,6 +407,11 @@ ninja.data = [{
           description: "First-place autonomous combat robot with custom spring-retention launcher",
           section: "Projects",handler: () => {
               window.location.href = "/projects/autonomous-combat-robot/";
+            },},{id: "projects-structurally-integral-battery-pack",
+          title: 'Structurally Integral Battery Pack',
+          description: "Battery pack design for electric UAV aircraft",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/battery-pack-uav/";
             },},{id: "projects-modular-hho-generator",
           title: 'Modular HHO Generator',
           description: "Hydrogen-oxygen gas generation system",
