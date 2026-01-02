@@ -407,6 +407,11 @@ ninja.data = [{
           description: "First-place autonomous combat robot with custom spring-retention launcher",
           section: "Projects",handler: () => {
               window.location.href = "/projects/autonomous-combat-robot/";
+            },},{id: "projects-modular-hho-generator",
+          title: 'Modular HHO Generator',
+          description: "Hydrogen-oxygen gas generation system",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/hho-generator/";
             },},{id: "projects-pip-educational-robot",
           title: 'Pip Educational Robot',
           description: "Complete hardware development of an affordable educational robot for K-8 classrooms",
