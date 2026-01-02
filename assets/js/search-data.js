@@ -417,6 +417,11 @@ ninja.data = [{
           description: "Coming soon",
           section: "Projects",handler: () => {
               window.location.href = "/projects/sumo-robot/";
+            },},{id: "projects-vtol-uav",
+          title: 'VTOL UAV',
+          description: "Senior project",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/vtol-uav/";
             },},{
         id: 'social-email',
         title: 'email',
