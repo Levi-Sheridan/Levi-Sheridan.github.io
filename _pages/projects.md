@@ -5,7 +5,7 @@ permalink: /portfolio/
 description:
 nav: true
 nav_order: 3
-display_categories: [robotics]
+display_categories: [robotics, other]
 horizontal: false
 ---
 
