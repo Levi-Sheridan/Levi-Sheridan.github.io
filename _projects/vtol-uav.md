@@ -1,7 +1,7 @@
 ---
 layout: page
 title: VTOL UAV
-description: Senior project
+description: Cooper Union VFS senior project
 img: assets/img/vtol/vtol_thumbnail.jpg
 importance: 1
 category: other
